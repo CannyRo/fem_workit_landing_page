@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url("./assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.tff");
+}
+@font-face {
+    font-family: "Manrope";
+    src: url("./assets/fonts/manrope/Manrope-VariableFont_wght.tff");
+}
+
+:root{
+    --main-font : "Manrope";
+    --title-font : "Fraunces";
+    --main-dark : rgba(36, 5, 62, 1);
+    --main-light : rgba(253, 250, 255, 1);
+    --main-accent : rgba(68, 255, 161, 1);
+    --main-grey : rgba(88, 77, 98, 1);
+    --main-white : rgba(255, 255, 255, 1);
+}
